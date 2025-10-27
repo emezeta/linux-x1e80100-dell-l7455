@@ -1,3 +1,4 @@
+## Confirmed working .conf on a Dell Latitude 7455 (not my own unit) ##
 
 ### Audio configuration files for Dell Latitude 7455 on Linux ###
 
@@ -14,7 +15,6 @@
 <code>
  /usr/share/alsa/ucm2/ucm2.d/x1e80100/
 </code>
-
 
 
 _thanks, Val Packett!_
