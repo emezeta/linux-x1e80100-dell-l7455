@@ -6,7 +6,7 @@
 ```bash
 # ESTRUCTURA BÁSICA
 RepoU - Upstream = https://git-lab_hub.com/PROYECTO/ORIGINAL.git
-RepoF - Tu Fork  = https://git_lab_hub.com/TU_USUARIO/PROYECTO.git  
+RepoF - Mi Fork  = https://git_lab_hub.com/TU_USUARIO/PROYECTO.git  
 RepoL - Local -  = Clon de RepoF
 
 # CONFIGURACIÓN INICIAL
@@ -55,6 +55,7 @@ git push origin upstream/main:main
 
 ### **SINCRONIZACIÓN AVANZADA - comandos **
 ```bash
+
 # MÚLTIPLES BRANCHES
 git fetch upstream
 git push origin upstream/main:main
@@ -182,9 +183,7 @@ git count-objects -v
 git gc
 ```
 
----
-
-## 🚀 TABLA DECISORIA RÁPIDA
+## 🚀 TABLA RÁPIDA
 
 | **ESCENARIO** | **OPERACIÓN** | **COMANDO** |
 |---------------|---------------|-------------|
@@ -194,6 +193,19 @@ git gc
 | **Subir después de rebase** | Push seguro | `git push --force-with-lease origin feature` |
 | **Aplicar patches email** | B4 completo | `b4 am -s MSG-ID && git am patches/*.patch` |
 | **Recuperar fork corrupto** | Sincronización forzada | `git push --force origin upstream/main:main` |
+
+
+---
+
+
+
+
+
+
+
+
+---
+
 
 ---
 
@@ -215,7 +227,6 @@ git gc
 - **REBASE**: Para trabajo local/no-compartido (limpia historial)
 - **MERGE**: Para integración colaborativa (preserva historial)
 
----
 
 ## 🎯 RESUMEN EJECUTIVO
 
@@ -225,5 +236,26 @@ git gc
 **TRABAJO:** Branch + rebase + push seguro  
 **PATCHES:** B4 para email, git apply para locales  
 **MANTENIMIENTO:** filter-repo + gc agresivo  
+
+---
+
+### **🔍 REBASE vs MERGE:**
+
+## 🔍 **# **VER COMMITS NO PUSHEADOS**
+```bash
+
+# Commits locales pero no en el remoto
+git cherry -v
+
+# Método claro y directo
+git log --oneline origin/main..HEAD
+# ó
+git log @{u}..
+
+# Detallado con fechas y autores**
+git log --oneline --graph origin/main..HEAD
+```
+
+
 
 **¡Listo para operaciones de campo!** 🚀

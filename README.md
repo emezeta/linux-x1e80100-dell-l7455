@@ -1,5 +1,5 @@
 # Linux x1e-80-100 Dell Latitude 7455
-### Snapdragon-Powered Dell 7455: The Quest for Linux Boot
+### Snapdragon-Powered Dell Latitude 7455: The Quest for Linux Boot
 
 I have no prior experience with firmware or low-level development — my background is mostly long-term Linux use, almost 20 years, and some basic programming skills.
 A few months ago, I got a Dell Latitude 7455 with a Snapdragon X Elite (x1e-80-100), running Windows 11. After digging around online and checking out some interesting projects like [Ubuntu Concept](https://discourse.ubuntu.com/t/ubuntu-24-10-concept-snapdragon-x-elite/48800), [Linaro Debian Installer](https://git.codelinaro.org/linaro/qcomlt/demos/debian-12-installer-image) and others, I started jotting down notes and running a few experiments.
@@ -18,5 +18,4 @@ ___
 ##### In the press, some specialized news
 
  * [Dell Latitude 7455 Is The Newest Qualcomm Snapdragon X Elite Laptop Seeing Linux (kernel) Patches](https://www.phoronix.com/news/Dell-Latitude-7455-X1E-Linux) _25/05/2025_
- * [Leaked Qualcomm Snapdragon SC8280 chipset details](https://www.notebookcheck.net/Leaked-Qualcomm-Snapdragon-SC8280-chipset-details-suggest-5G-connectivity-32-GB-of-RAM-support-and-a-larger-die-size-for-Windows-on-ARM-PCs.515538.0.html) _18/01/2021_
   
