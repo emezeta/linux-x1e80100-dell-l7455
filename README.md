@@ -30,6 +30,6 @@ I recompile the kernel with some tweaks for my laptop, and huge thanks to [@valp
 On that same base I've also compiled the kernels from [Linux arm64-laptops](https://gitlab.com/Linaro/arm64-laptops/linux/-/tree/qcom-laptops). Maintained by folks from Linaro/Qualcomm, with a lot of mutual collaboration with the arm64 communities, especially for the latest Snapdragons. They've already adopted a good part of the valpacket-dell-latitude-7455 DTB.
 Here too, small tweaks — audio stack tweaks — thanks again to [@valpacket](https://github.com/valpackett).
 
-I don't think it's worth continuing this blog. Anyway, if anything interesting comes up, we'll be here. I hope someone else had as much fun as I did ;-)  
-_02 Apr 2026_
+#
+I don't think it's worth continuing this blog. Anyway, if anything interesting comes up, we'll be here. I hope someone else had as much fun as I did ;-) &nbsp;&nbsp;&nbsp;&nbsp;    _02 Apr 2026_
 
