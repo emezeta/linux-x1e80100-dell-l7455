@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# modifyed of well knowed script `qcom-firmware-extract` it's a over-simplified targeting files of potential interest to be extracted form running win 11 on Dell Latitude 7455 Snapdragon x12-80-100-
+# modifyed of well knowed script `qcom-firmware-extract` it's a over-simplified targeting files 
+# of potential interest to be extracted form running win 11 on Dell Latitude 7455 Snapdragon x12-80-100
 
 set -e
 set -u
